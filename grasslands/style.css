@@ -1,0 +1,24 @@
+/*
+ Theme Name:   grasslands
+ Theme URI:    http://saeon.ac.za
+ Description:  SAEON Child Theme
+ Author:       SAEON
+ Author URI:   http://saeon.ac.za
+ Template:     saeon
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         grasslands,saeon
+ Text Domain:  grasslands
+*/
+body.home {
+    padding-top: 0;
+}
+@media only screen and (min-width: 769px) {
+    .home .saeon-header,.home #cssmenu{
+        top: -128px;
+    }
+}
+.sn-double-row{
+
+}

@@ -1,4 +1,6 @@
 
 jQuery(document).ready(function($) {
-   console.log('test');
+   $("#home-meu").click(function(){
+      $(".saeon-header").removeClass("sn-noscroll");
+   });
 });
